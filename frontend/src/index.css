@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@400;500;600&family=Roboto:wght@400;500&display=swap");
+* {
+  font-family: "Noto Sans Mono", monospace;
+  font-weight: 600;
+  box-sizing: border-box;
+}
+
+.bg-color {
+  background-color: #d9ded447;
+}
+
+.input-el {
+  font-size: 1.1em;
+  display: block;
+  margin: 10px 0px;
+  padding: 10px;
+  padding-left: 10px;
+  border-radius: 10px;
+  border: 1px solid rgb(202, 202, 238);
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+}
+
+.user-form {
+  width: 50% !important;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 20px !important;
+  border-radius: 8px !important;
+  border: none;
+  outline: none;
+  background-color: dodgerblue;
+  color: white;
+  font-weight: bold;
+  width: 100%;
+}
+
+.purp-child {
+  border: 1px solid #beb4b4;
+  padding: 10px;
+}
+
+.purp {
+  border: 0.5px solid #beb4b4;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.text-header {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.bd-none {
+  border: none;
+}
+
+.vh {
+  height: 100vh;
+}
+
+.vh-50 {
+  height: 50vh;
+}
+
+.br {
+  border-radius: 10px;
+  /* margin: 0px 0.1px; */
+}
+
+.mgc {
+  margin: 0px auto;
+}
+
+.mg-tr {
+  margin: auto 20px;
+}
+
+.form-select {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  outline: none;
+  margin: 5px 0px;
+  background-color: transparent;
+  border: 1px solid rgb(202, 202, 238);
+}
+
+.active {
+  width: 50px;
+  height: 50px;
+  border: 2px solid #43edbd;
+  background-color: #43edbd;
+  border-radius: 25px;
+  display: inline;
+}
+
+.about-img-styles {
+  width: 60%;
+  height: 60%;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0px auto;
+}
+
+.about-txt-styles {
+  padding-top: 10px;
+  font-size: 0.8em;
+}
+
+.default {
+  color: gray !important;
+}
+
+.fctYnd {
+  width: 100% !important;
+}
+
+.card-styles {
+  border-radius: 10px;
+  border: 1px solid #e9e3e3;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  font-size: 0.8em;
+}
+
+.card-styles p {
+  margin-top: 10px;
+}
+
+td,
+tr,
+table,
+tbody,
+thead {
+  border: 1px solid #dee2e6;
+}
+
+.info {
+  border: 1px solid #17bdbd;
+  border-radius: 10px;
+  background-color: #eaf5f2d8;
+  color: #074d39;
+  padding: 10px;
+  margin: 10px 5px;
+  font-weight: bold;
+}
+
+.link {
+  text-decoration: none;
+  color: #074d39;
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+.footer {
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  background-color: #e9e3e3bd;
+  padding: 50px;
+  margin-top: 20px;
+}
+
+.wallet-style {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.tokens {
+  font-weight: bold;
+}
+
+.user {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: black;
+}
+
+.list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.list span {
+  padding-left: 5px;
+  font-size: 1.4em;
+}
+
+.pending {
+  background-color: rgb(255, 134, 91);
+}
+
+.paid {
+  background-color: #43edbd;
+}

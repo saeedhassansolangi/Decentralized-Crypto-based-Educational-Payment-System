@@ -1,0 +1,3 @@
+export const ALCHEMY_API_KEY = "OIE1fCQR8T6yp_1HcKSCMFyJPR_RZNlU";
+export const WALLET_PRIVATE_KEY =
+  "311b027dc3831948ccfaf749d90e23f316bfebcdae1e30607d46eb1dbe922ca8";
